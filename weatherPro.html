@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weatherPro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="container">
+        <h1>Weather Web</h1>
+        
+        
+        <div class="weather-section">
+            <h2>Your Current Location Weather</h2>
+            <button id="getlocation">Get Location</button>
+            <h3 id="cname"></h3>
+            <h6 id="ctime"></h6>
+            <p id="ctemp"></p>
+            <p id="cftemp"></p>
+        </div>
+        
+        <div class="weather-section">
+            <h2>Search Weather by City</h2>
+            <input id="city" type="text" placeholder="Enter City name:"/>
+            <button id="searchButton">Search</button>
+            <h3 id="sname"></h3>
+            <h6 id="stime"></h6>
+            <p id="stemp"></p>
+            <p id="sftemp"></p>
+        </div>
+    </div>
+    
+    <script src="weatherPro.js"></script>
+</body>
+</html>
